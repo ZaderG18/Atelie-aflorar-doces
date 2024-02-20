@@ -106,3 +106,45 @@ nav ul li a:hover{
         padding-left: 10px;
         
     }
+  .caixa{
+        background-image: linear-gradient(rgb(210, 87, 235),rgb(175, 56, 199),rgb(178, 37, 221));
+        display: inline-block;
+        border-radius: 10px;
+        width: 15%;
+        margin: 50px;
+        padding: 15px;
+    }
+    .produto{
+        width: 80%;
+        margin-top: 10%;
+        background-position: center;
+    }
+    .preco{
+        font-weight: 900;
+        font-size: 15px;
+    }
+    h4{
+        padding-left: 7px;
+        margin-bottom: 10px;
+        color: black;
+        border-left: 8px rgb(161, 20, 161);
+        font-family: playpen sans;
+    }
+    p{
+        font-size: 11px;
+        font-family: playpen;
+    }
+    .comprar{
+        background-color: #FD017D;
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .comprar:hover{
+        background-color: darkviolet;
+    
+    }
